@@ -14,7 +14,7 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 
 ### What Each JavaScript Does
 
-1. `BamazonCustomer.js`
+1. `Bamazon-Customer.js`
 
     * Prints the products in the store.
 
@@ -29,7 +29,7 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 
 -----------------------
 
-2. `BamazonManager.js`
+2. `Bamazon-Manager.js`
 
     * Starts with a menu:
         * View Products for Sale
@@ -50,7 +50,7 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 
 -----------------------
 
-3. `BamazonExecutive.js`
+3. `Bamazon-Supervisor.js`
 
     * Starts with a menu:
         * View Product Sales by Department
@@ -63,13 +63,14 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 
     * If the manager selects `End Session`, it ends the session and doesn't go back to the menu.
 
-## Demo Videos
+## ScreenShots
 
-* BamazonCustomer.js (https://www.youtube.com/watch?v=p-QBusgtjKE)
+* Bamazon-Customer.js [Screenshot](https://github.com/medoucet720/BAMazon/images/img1.png)
 
-* BamazonManager.js (https://www.youtube.com/watch?v=Go828nrwaLY)
+* Bamazon-Manager.js [Screenshot](https://github.com/medoucet720/BAMazon/images/img2.png)
 
-* ExecutiveManager.js (https://www.youtube.com/watch?v=W6P2YpXGDq8)
+* Bamazon-Supervisor.js [Screenshot](https://github.com/medoucet720/BAMazon/images/img3.png)
+
 
 ## Technologies used
 - Node.js
