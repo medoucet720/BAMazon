@@ -65,11 +65,11 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 
 ## ScreenShots
 
-* Bamazon-Customer.js [Screenshot](https://github.com/medoucet720/BAMazon/images/img1.png)
+* Bamazon-Customer.js [Screenshot](https://github.com/medoucet720/BAMazon/tree/master/images/img1.png)
 
-* Bamazon-Manager.js [Screenshot](https://github.com/medoucet720/BAMazon/images/img2.png)
+* Bamazon-Manager.js [Screenshot](https://github.com/medoucet720/BAMazon/tree/master/images/img2.png)
 
-* Bamazon-Supervisor.js [Screenshot](https://github.com/medoucet720/BAMazon/images/img3.png)
+* Bamazon-Supervisor.js [Screenshot](https://github.com/medoucet720/BAMazon/tree/master/images/img3.png)
 
 
 ## Technologies used
