@@ -1,26 +1,16 @@
-CREATE DATABASE BAMazon;
+CREATE TABLE Departments(
+    DepartmentID MEDIUMINT AUTO_INCREMENT NOT NULL,
+    DepartmentName VARCHAR(50) NOT NULL,
+    OverHeadCosts DECIMAL(10,2) NOT NULL,
+    TotalSales DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY(DepartmentID));
 
-USE BAMazon;
+INSERT INTO Departments(DepartmentName, OverHeadCosts, TotalSales)
+VALUES ('ENTERTAINMENT', 50000.00, 15000.00),
+    ('BEAUTY PRODUCTS', 20000.00, 12000.00),
+    ('HOME GOODS', 30000.00, 15000.00),
+    ('CLEANING PRODUCTS', 3000.00, 12000.00),
+    ('GROCERY', 1200.00, 15000.00),
+    ('CLOTHING', 35000.00, 15000.00),
+    ('BOOKS', 12000.00, 12000.00);
 
-CREATE TABLE Products(
-	ItemID INT AUTO_INCREMENT NOT NULL,
-	Product Name VARCHAR(100) NOT NULL,
-	Department Name VARCHAR(50) NOT NULL,
-	Price DECIMAL(11,2) NOT NULL,
-	StockQuantity INT(11) NOT NULL,
-	primary key (ItemID)
-);
-
-select * from Products;
-
-INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
-VALUES("Coconut Oil", "GROCERY", 9.99, 25),
-	("Salad Dressing","GROCERY", 7.95, 31),
-	("Rubber Gloves","CLEANING PRODUCTS", 5.99, 3),
-	("Ketogenic Diet Cookbook","BOOKS", 15.95, 10),
-	("Granola Bars","GROCERY", 24.21, 42),
-	("Pink Tank Top","CLOTHING",16.99, 27),
-	("Bathing Suit","CLOTHING", 56.00, 14),
-	("Sunglasses","CLOTHING", 94.00, 34),
-	("Beach Chair","HOME GOODS", 80.50, 58),
-	("Mascara","BEAUTY PRODUCTS", 5.75, 2);
